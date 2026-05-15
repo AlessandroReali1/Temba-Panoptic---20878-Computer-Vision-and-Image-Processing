@@ -1,0 +1,19 @@
+# Core Python dependencies for project scripts.
+# Detectron2 and Mask2Former are external dependencies and should be installed separately.
+
+numpy==1.26.4
+scipy
+pandas
+Pillow
+matplotlib
+opencv-python-headless
+pycocotools
+PyYAML
+tqdm
+fvcore
+iopath
+yacs
+termcolor
+tabulate
+cloudpickle
+omegaconf

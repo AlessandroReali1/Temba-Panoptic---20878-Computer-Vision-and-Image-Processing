@@ -1,0 +1,498 @@
+{
+  "type": "effective_num_track_weights",
+  "beta": 0.9999,
+  "max_weight": 5.0,
+  "num_classes": 61,
+  "weights": [
+    5.0,
+    5.0,
+    0.49546283629049614,
+    5.0,
+    1.5709158201497375,
+    5.0,
+    5.0,
+    1.5709158201497375,
+    5.0,
+    0.6684071235985045,
+    0.989589660549216,
+    5.0,
+    5.0,
+    5.0,
+    5.0,
+    0.504785973008858,
+    5.0,
+    1.0686500040225797,
+    0.7425261483491908,
+    0.23136162598394308,
+    4.448481166333793,
+    0.7861255825217984,
+    5.0,
+    0.35242643943206375,
+    0.989589660549216,
+    1.4837168850907303,
+    5.0,
+    5.0,
+    5.0,
+    0.23336181970812062,
+    5.0,
+    5.0,
+    5.0,
+    5.0,
+    5.0,
+    2.6696225264264344,
+    0.6855115122149773,
+    1.2719480555118194,
+    5.0,
+    5.0,
+    5.0,
+    5.0,
+    5.0,
+    0.9542948667383797,
+    0.24390830177313796,
+    5.0,
+    0.8620729947440864,
+    0.8620729947440864,
+    5.0,
+    0.3434241624055245,
+    0.03810363361938487,
+    5.0,
+    0.08294050670050682,
+    0.01961765562593831,
+    0.3267370212552038,
+    5.0,
+    0.43875984486116276,
+    0.581397862679755,
+    0.20818111768632375,
+    1.6690146248709283,
+    0.26816524387922813
+  ],
+  "rows": [
+    {
+      "category_id": 0,
+      "name": "crutch",
+      "count_tracks": 0,
+      "raw_weight": 5.0,
+      "weight": 5.0
+    },
+    {
+      "category_id": 1,
+      "name": "fire_extinguisher",
+      "count_tracks": 0,
+      "raw_weight": 5.0,
+      "weight": 5.0
+    },
+    {
+      "category_id": 2,
+      "name": "big_socket/button",
+      "count_tracks": 54,
+      "raw_weight": 0.01856763757938801,
+      "weight": 0.49546283629049614
+    },
+    {
+      "category_id": 3,
+      "name": "airpot",
+      "count_tracks": 0,
+      "raw_weight": 5.0,
+      "weight": 5.0
+    },
+    {
+      "category_id": 4,
+      "name": "controller",
+      "count_tracks": 17,
+      "raw_weight": 0.058870602353646,
+      "weight": 1.5709158201497375
+    },
+    {
+      "category_id": 5,
+      "name": "umbrella",
+      "count_tracks": 0,
+      "raw_weight": 5.0,
+      "weight": 5.0
+    },
+    {
+      "category_id": 6,
+      "name": "animal",
+      "count_tracks": 0,
+      "raw_weight": 5.0,
+      "weight": 5.0
+    },
+    {
+      "category_id": 7,
+      "name": "monitor",
+      "count_tracks": 17,
+      "raw_weight": 0.058870602353646,
+      "weight": 1.5709158201497375
+    },
+    {
+      "category_id": 8,
+      "name": "carpet",
+      "count_tracks": 0,
+      "raw_weight": 5.0,
+      "weight": 5.0
+    },
+    {
+      "category_id": 9,
+      "name": "cabinet",
+      "count_tracks": 40,
+      "raw_weight": 0.025048783314156917,
+      "weight": 0.6684071235985045
+    },
+    {
+      "category_id": 10,
+      "name": "jacket",
+      "count_tracks": 27,
+      "raw_weight": 0.03708520765544227,
+      "weight": 0.989589660549216
+    },
+    {
+      "category_id": 11,
+      "name": "emergency_pole",
+      "count_tracks": 0,
+      "raw_weight": 5.0,
+      "weight": 5.0
+    },
+    {
+      "category_id": 12,
+      "name": "helmet",
+      "count_tracks": 0,
+      "raw_weight": 5.0,
+      "weight": 5.0
+    },
+    {
+      "category_id": 13,
+      "name": "peripheral",
+      "count_tracks": 0,
+      "raw_weight": 5.0,
+      "weight": 5.0
+    },
+    {
+      "category_id": 14,
+      "name": "curtain",
+      "count_tracks": 0,
+      "raw_weight": 5.0,
+      "weight": 5.0
+    },
+    {
+      "category_id": 15,
+      "name": "box",
+      "count_tracks": 53,
+      "raw_weight": 0.018917025285206033,
+      "weight": 0.504785973008858
+    },
+    {
+      "category_id": 16,
+      "name": "document",
+      "count_tracks": 0,
+      "raw_weight": 5.0,
+      "weight": 5.0
+    },
+    {
+      "category_id": 17,
+      "name": "television",
+      "count_tracks": 25,
+      "raw_weight": 0.04004802080103744,
+      "weight": 1.0686500040225797
+    },
+    {
+      "category_id": 18,
+      "name": "light_pole",
+      "count_tracks": 36,
+      "raw_weight": 0.027826418867233072,
+      "weight": 0.7425261483491908
+    },
+    {
+      "category_id": 19,
+      "name": "board",
+      "count_tracks": 116,
+      "raw_weight": 0.008670355284788848,
+      "weight": 0.23136162598394308
+    },
+    {
+      "category_id": 20,
+      "name": "manhole",
+      "count_tracks": 6,
+      "raw_weight": 0.16670833819469563,
+      "weight": 4.448481166333793
+    },
+    {
+      "category_id": 21,
+      "name": "phone",
+      "count_tracks": 34,
+      "raw_weight": 0.029460322427880194,
+      "weight": 0.7861255825217984
+    },
+    {
+      "category_id": 22,
+      "name": "ladder",
+      "count_tracks": 0,
+      "raw_weight": 5.0,
+      "weight": 5.0
+    },
+    {
+      "category_id": 23,
+      "name": "waterbottle",
+      "count_tracks": 76,
+      "raw_weight": 0.013207300167579128,
+      "weight": 0.35242643943206375
+    },
+    {
+      "category_id": 24,
+      "name": "picture_frames",
+      "count_tracks": 27,
+      "raw_weight": 0.03708520765544227,
+      "weight": 0.989589660549216
+    },
+    {
+      "category_id": 25,
+      "name": "standee",
+      "count_tracks": 18,
+      "raw_weight": 0.05560279273222981,
+      "weight": 1.4837168850907303
+    },
+    {
+      "category_id": 26,
+      "name": "store_sign",
+      "count_tracks": 0,
+      "raw_weight": 5.0,
+      "weight": 5.0
+    },
+    {
+      "category_id": 27,
+      "name": "statues",
+      "count_tracks": 0,
+      "raw_weight": 5.0,
+      "weight": 5.0
+    },
+    {
+      "category_id": 28,
+      "name": "cargo",
+      "count_tracks": 0,
+      "raw_weight": 5.0,
+      "weight": 5.0
+    },
+    {
+      "category_id": 29,
+      "name": "tableware",
+      "count_tracks": 115,
+      "raw_weight": 0.008745313221971689,
+      "weight": 0.23336181970812062
+    },
+    {
+      "category_id": 30,
+      "name": "accessory",
+      "count_tracks": 0,
+      "raw_weight": 5.0,
+      "weight": 5.0
+    },
+    {
+      "category_id": 31,
+      "name": "other",
+      "count_tracks": 0,
+      "raw_weight": 5.0,
+      "weight": 5.0
+    },
+    {
+      "category_id": 32,
+      "name": "clock",
+      "count_tracks": 0,
+      "raw_weight": 5.0,
+      "weight": 5.0
+    },
+    {
+      "category_id": 33,
+      "name": "golfcart",
+      "count_tracks": 0,
+      "raw_weight": 5.0,
+      "weight": 5.0
+    },
+    {
+      "category_id": 34,
+      "name": "wall_panel",
+      "count_tracks": 0,
+      "raw_weight": 5.0,
+      "weight": 5.0
+    },
+    {
+      "category_id": 35,
+      "name": "decoration",
+      "count_tracks": 10,
+      "raw_weight": 0.10004500825041404,
+      "weight": 2.6696225264264344
+    },
+    {
+      "category_id": 36,
+      "name": "hanging_light",
+      "count_tracks": 39,
+      "raw_weight": 0.025689776069991926,
+      "weight": 0.6855115122149773
+    },
+    {
+      "category_id": 37,
+      "name": "window",
+      "count_tracks": 21,
+      "raw_weight": 0.047666684127856115,
+      "weight": 1.2719480555118194
+    },
+    {
+      "category_id": 38,
+      "name": "poster",
+      "count_tracks": 0,
+      "raw_weight": 5.0,
+      "weight": 5.0
+    },
+    {
+      "category_id": 39,
+      "name": "lift",
+      "count_tracks": 0,
+      "raw_weight": 5.0,
+      "weight": 5.0
+    },
+    {
+      "category_id": 40,
+      "name": "vent",
+      "count_tracks": 0,
+      "raw_weight": 5.0,
+      "weight": 5.0
+    },
+    {
+      "category_id": 41,
+      "name": "fountain",
+      "count_tracks": 0,
+      "raw_weight": 5.0,
+      "weight": 5.0
+    },
+    {
+      "category_id": 42,
+      "name": "door_handle",
+      "count_tracks": 0,
+      "raw_weight": 5.0,
+      "weight": 5.0
+    },
+    {
+      "category_id": 43,
+      "name": "floor/walking_path",
+      "count_tracks": 28,
+      "raw_weight": 0.03576252330473428,
+      "weight": 0.9542948667383797
+    },
+    {
+      "category_id": 44,
+      "name": "machines",
+      "count_tracks": 110,
+      "raw_weight": 0.009140546208943782,
+      "weight": 0.24390830177313796
+    },
+    {
+      "category_id": 45,
+      "name": "child",
+      "count_tracks": 0,
+      "raw_weight": 5.0,
+      "weight": 5.0
+    },
+    {
+      "category_id": 46,
+      "name": "trash_bin",
+      "count_tracks": 31,
+      "raw_weight": 0.032306477420641404,
+      "weight": 0.8620729947440864
+    },
+    {
+      "category_id": 47,
+      "name": "shelf",
+      "count_tracks": 31,
+      "raw_weight": 0.032306477420641404,
+      "weight": 0.8620729947440864
+    },
+    {
+      "category_id": 48,
+      "name": "car",
+      "count_tracks": 5,
+      "raw_weight": 0.20004000400020067,
+      "weight": 5.0
+    },
+    {
+      "category_id": 49,
+      "name": "bicycle/scooter",
+      "count_tracks": 78,
+      "raw_weight": 0.01286993678737188,
+      "weight": 0.3434241624055245
+    },
+    {
+      "category_id": 50,
+      "name": "bag",
+      "count_tracks": 726,
+      "raw_weight": 0.0014279465737521229,
+      "weight": 0.03810363361938487
+    },
+    {
+      "category_id": 51,
+      "name": "big_vehicle",
+      "count_tracks": 0,
+      "raw_weight": 5.0,
+      "weight": 5.0
+    },
+    {
+      "category_id": 52,
+      "name": "chair/sofa",
+      "count_tracks": 327,
+      "raw_weight": 0.0031082235765567826,
+      "weight": 0.08294050670050682
+    },
+    {
+      "category_id": 53,
+      "name": "pedestrian",
+      "count_tracks": 1462,
+      "raw_weight": 0.0007351782881372325,
+      "weight": 0.01961765562593831
+    },
+    {
+      "category_id": 54,
+      "name": "sign",
+      "count_tracks": 82,
+      "raw_weight": 0.012244580521632542,
+      "weight": 0.3267370212552038
+    },
+    {
+      "category_id": 55,
+      "name": "trolley",
+      "count_tracks": 0,
+      "raw_weight": 5.0,
+      "weight": 5.0
+    },
+    {
+      "category_id": 56,
+      "name": "pole/trafficcone",
+      "count_tracks": 61,
+      "raw_weight": 0.016442673773001303,
+      "weight": 0.43875984486116276
+    },
+    {
+      "category_id": 57,
+      "name": "bicyclist/rider",
+      "count_tracks": 46,
+      "raw_weight": 0.02178808179538038,
+      "weight": 0.581397862679755
+    },
+    {
+      "category_id": 58,
+      "name": "table",
+      "count_tracks": 129,
+      "raw_weight": 0.007801657886213753,
+      "weight": 0.20818111768632375
+    },
+    {
+      "category_id": 59,
+      "name": "skateboard/segway/hoverboard",
+      "count_tracks": 16,
+      "raw_weight": 0.06254688828191345,
+      "weight": 1.6690146248709283
+    },
+    {
+      "category_id": 60,
+      "name": "door",
+      "count_tracks": 100,
+      "raw_weight": 0.010049583329027612,
+      "weight": 0.26816524387922813
+    }
+  ]
+}

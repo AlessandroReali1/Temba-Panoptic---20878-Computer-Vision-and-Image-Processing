@@ -1,0 +1,30 @@
+name: temba-panoptic
+channels:
+  - pytorch
+  - nvidia
+  - conda-forge
+  - defaults
+
+dependencies:
+  - python=3.9
+  - pip
+  - numpy=1.26.4
+  - scipy
+  - pandas
+  - pillow
+  - matplotlib
+  - pyyaml
+  - tqdm
+  - pytorch
+  - torchvision
+  - pytorch-cuda=12.1
+  - pip:
+      - opencv-python-headless
+      - pycocotools
+      - fvcore
+      - iopath
+      - yacs
+      - termcolor
+      - tabulate
+      - cloudpickle
+      - omegaconf

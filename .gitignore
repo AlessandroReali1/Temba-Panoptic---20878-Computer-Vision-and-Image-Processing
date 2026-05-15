@@ -1,0 +1,76 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+
+# Environments
+venv/
+.venv/
+env/
+<YOUR_ENV_NAME>/
+
+# Logs
+logs/
+*.log
+*.out
+*.err
+slurm-*.out
+
+# Training outputs
+output/
+events.out.tfevents*
+last_checkpoint
+metrics.json
+
+# Checkpoints and model weights
+*.pth
+*.pt
+*.pkl
+*.ckpt
+
+# Datasets
+data/raw/
+data/processed/
+data/jrdb_preproc/
+jrdb_preproc/
+panoptic_maps/
+image_stitched/
+TRAIN_DATASET_WITH_ACTIVITY/
+
+# Large predictions and visualizations
+jrdb_instance_predictions.json
+jrdb_panoptic_metrics.json
+visual_outputs/
+visual_outputs_HQ/
+visual_outputs_POSTER_2x/
+full_visual_outputs/
+*.mp4
+
+# OS/editor
+.DS_Store
+.vscode/
+.idea/
+
+# Full visual outputs and videos
+results/qualitative/full_visual_outputs/
+results/qualitative/visual_outputs/
+results/qualitative/visual_outputs_HQ/
+results/qualitative/visual_outputs_POSTER_2x/
+visual_outputs/
+visual_outputs_HQ/
+visual_outputs_POSTER_2x/
+frames/
+frames_png/
+frames_jpg/
+*.mp4
+*.avi
+*.mov
+*.mkv
+
+# Generated data and evaluation outputs
+data/single_video_jsons/
+test_panoptic_eval*/
+code_backups/
+*.bak*
+__pycache__/
+*.pyc
