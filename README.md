@@ -195,9 +195,6 @@ Large files are intentionally excluded:
 
 The current implementation uses a simplified TEMBA-inspired convolutional adapter. It does not include a selective state-space scan and does not use a state dimension hyperparameter. A natural future extension is to replace the convolutional temporal mixer with a full TEMBA/MS-TEMBA state-space module. In that setting, a state dimension parameter, often denoted `d_state`, would become a real architectural hyperparameter controlling the size of the recurrent temporal state used by the selective scan.
 
-## Evaluation note
-
-The repository includes a custom evaluator for PQ, STQ, and VPQ computed from the generated panoptic track predictions. The reported values are intended primarily for relative comparison between the model variants evaluated under the same pipeline.
 
 ## Training entry point note
 
